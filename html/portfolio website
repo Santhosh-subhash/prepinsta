@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Website</title>
+    <style>
+        /* Add your CSS styles here for styling the content */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        .profile-img {
+            max-width: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Name</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <!-- Add more navigation items as needed -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="container">
+            <img src="profile-picture.jpg" alt="Your Name" class="profile-img">
+            <p>Hello, I'm Your Name. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis libero eget dui dignissim, vel tincidunt nisi lobortis.</p>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
